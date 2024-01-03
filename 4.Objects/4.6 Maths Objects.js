@@ -1,4 +1,4 @@
-// Math Object built in object in JavaScript
+// Math Object are built in object in JavaScript
 
 console.log(Math)
 //  after using this functions we can get this sections
