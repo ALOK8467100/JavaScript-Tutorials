@@ -1,7 +1,7 @@
 # What is JavaScript?
 > JS is a programming language. We use to give instruction to the computer.
 
-           Input (code) ---->  [computer]  ---->   Output
+           Input (code) ----  [computer]  ----   Output
             instructions         
             in form of 
                code
