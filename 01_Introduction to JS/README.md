@@ -19,7 +19,8 @@
 
  Html has direct connection to  browser & Javascript has direct connection to console.
  But we want to make direct connection of our JAvascript to browser.
-SO, we do this thing
+ 
+ So, we do this thing
 
       html ---- browser
 
