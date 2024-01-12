@@ -27,11 +27,5 @@
        |
        |
 
-     JavaScript 
-
-```
-In issues, pull requests, and discussions, you can
-call out colors within a sentence by using backticks. A supported color model 
-```
-          
+     JavaScript     
   
