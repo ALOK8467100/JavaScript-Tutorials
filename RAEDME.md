@@ -93,7 +93,7 @@ const value = 18;
 console.log("const value " + value)
 ```
 
-## 02.2_Data Types.js
+## 02.2_Data Types
 
 console.log("Now we discuss DataType")
 
@@ -233,7 +233,7 @@ console.log(student.class);
 student["height"] = 164;  
 console.log(student.height);
 ```
-
+>
 
     Now Q/Ans
 
