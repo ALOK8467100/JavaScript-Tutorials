@@ -1,1 +1,0 @@
-console.log("Know how to add JavaScript")
