@@ -30,13 +30,13 @@ Array is type of object
 console.log(typeof heroes);  // it shows it's an object.
 ```
 Array Indices
-```
+
 For accesing particular indexes in array we use Array Indices.
+
 ```
 let marks = [96,75,48,83,66];
 console.log(marks[0]);  // it show's 96 for 0th index
 ```
-
 
 We can change the value of array at any perticular index.
 We change the marks[array] value at index [3] 83 to 90.
@@ -50,47 +50,42 @@ console.log(marks[3]); // value changed at index [3].
 
 ## 04.2_Looping over an Array
 
-/* Looping over an Array
+Looping over an Array
 Print all element of an array.
-*/
 ```
 let heroes = ["ironman","thor","hulk","skaktiman","spiderman","antman","loki","Capitan america"];
 ```
-/*
 For printing all elememt of an array we have to use loop and for this we need to know the length of an array,
 So we use array.length  
-*/
 
-/*  Syntax :
+  Syntax :
         
 for(let i= 0; i < arr.length; i++){
 
 }
 
-*/
-// for loop 
+for loop 
 ```
 for(let i = 0; i < heroes.length; i++){
     console.log(heroes[i]); 
 }
 console.log("*****");
 ```
-// for-of
-//  We can also use methods  
+for-of
+We can also use methods  
 ```
 for(let i of heroes){
     console.log(i);
 }
 ```
-/* Let's practice
+Let's practice
 
 Q1. For a given array with price of 5 items -> [250, 645, 300, 900, 50] 
 All itmes have an offer of 10% OFF on them. Change the array to store final price after applying offer.
 
 we find final value after offer is offer = value/10 (for 10%)
 
-*/
-//  We use for-of loop 
+We use for-of loop 
 ```
 let items = [250, 645, 300, 900, 50];
 let i = 0;
@@ -103,7 +98,7 @@ for (let val of items){
 
 }
 ```
-//  Now using for loop
+Now using for loop
 ```
 let item = [250, 645, 300, 900, 50];
 for(let i = 0; i < item.length; i++){
@@ -132,25 +127,27 @@ console.log(dishes.join('-'))
 2. indexOf 
  (indexOf is used to find that element is present or not)
 ```
-console.log(dishes.indexOf("Chat")) ```// it is case sensitive so exact match of element  
-
+console.log(dishes.indexOf("Chat")) // it is case sensitive so exact match of element  
+```
 3. Concatination Method
 It's join multiple arrays & return result
 now make new array
 dishes is 1st Array & newDishes is 2nd Array
-*/
+
 ```
 let newDishes = ["sweet-dish","pani-puri"];
 console.log(dishes.concat(newDishes)); 
 ```
-// After concat 1st Array element comes first and 2nd Array element comes second.
+After concat 1st Array element comes first and 2nd Array element comes second.
 
 4. Length Method
+
 Its tells about the length of that array element 
 ```
 console.log(dishes.length)
 ```
 5. Push Method (at end)
+   
 It is used to Add any element at last index.
 ```
 console.log(dishes.push("Chola"))  // In this line we push Chola Array dishes 
@@ -181,28 +178,29 @@ let val = dishes.shift();
 console.log("deleted" , val);
 ```
 10. Slice(startidx, endidx) it not change in original array
-// Syntax : slice(startidx, endidx)
+Syntax : slice(startidx, endidx)
 ```
 let marvelHeroes = ["Thor","Spiderman","Ironman","Antman","Dr.Strange"];
 
 console.log(marvelHeroes.slice(1,3));
 ```
 11. Splice() : change original array (add,remove, replace)
-// Syntax : splice(startidx, delCount, newEl1)
+Syntax : splice(startidx, delCount, newEl1)
 ```
 let arr = [1,2,3,4,5,6,7,8];
 arr.splice(2,2,101,103)
 console.log(arr);
-
-// We can add element directly without changing or deleting it.
+```
+We can add element directly without changing or deleting it.
+```
 arr.splice(2,0,304);
 console.log(arr)
 ```
 How to delete using splice.
-
+```
 arr.splice(3,1);
 console.log(arr)
-
+```
 
 Q. Create an array to store companies ->  "Bloomberg" , "Microsoft" , "Uber" , "Google" , "IBM" , "Netflix"
 1. Remove the first company from the array.
