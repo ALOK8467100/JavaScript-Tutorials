@@ -1,4 +1,4 @@
-# DOM-1
+# 07_DOM-1 (Document Object Model)
 
 ## 07.1_Introduction to DOM
 ```
