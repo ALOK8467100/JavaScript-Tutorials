@@ -1,4 +1,4 @@
-# Arrays in JS
+# 04_Arrays in JS
 
 ## 04.1_Introduction to Array
 
