@@ -1,4 +1,4 @@
-# DOM-2 (Document Object Model)
+# 08_DOM-2 (Document Object Model)
 
 ## 08.1_Attributes in DoM-2
 
