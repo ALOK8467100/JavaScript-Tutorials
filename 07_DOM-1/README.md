@@ -138,8 +138,8 @@ Let's Practice
 
 Q. Create a H2 heading element with text- "Hello JavaScript". Append "for Web developemnt" to this text using JS.
 
-    1. access element
-    2. property- change innerText.
+1. access element
+2. property- change innerText.
 
 ```
 let h2 = document.querySelector("h2");
