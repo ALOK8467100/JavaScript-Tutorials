@@ -567,7 +567,7 @@ Now Arithmetic Operations
                 2.example array.push()                                  example array.indexOf()
 
 
-# CONDITIONAL STATEMENT & CONTROL FLOW
+# 03_CONDITIONAL STATEMENT & CONTROL FLOW
 
 ## 03.1_If,Else,Else If 
 
@@ -771,7 +771,7 @@ switch(age) {
 we use break for perticular type of condition.
 
 
-# Arrays in JS
+# 04_Arrays in JS
 
 ## 04.1_Introduction to Array
 
@@ -1051,7 +1051,7 @@ We can find max and min by using Reduce method.
         // prec < curr.
 
 
-# DOM-1
+# 07_DOM-1
 
 ## 07.1_Introduction to DOM
 ```
